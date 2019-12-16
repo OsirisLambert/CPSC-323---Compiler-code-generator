@@ -1,0 +1,27 @@
+int a, b, c, d;
+bool e, f, g, h;
+a = 12;
+b = 8;
+c = 6;
+d = 4;
+e = true;
+f = false;
+g = true;
+h = false;
+if ( a >= b ) {
+a = b + c;
+c = a * b;
+}
+else {
+b = c - d;
+}
+while ( a > d ) {
+a = a - 1;
+f = true;
+}
+input ( a );
+output ( d );
+int sum;
+sum = a + b;
+output ( sum );
+@
